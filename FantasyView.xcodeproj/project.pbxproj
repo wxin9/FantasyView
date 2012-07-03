@@ -13,6 +13,10 @@
 		B307331415A2912D0043FAC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B307331215A2912D0043FAC2 /* InfoPlist.strings */; };
 		B307331615A2912D0043FAC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B307331515A2912D0043FAC2 /* main.m */; };
 		B307331A15A2912D0043FAC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B307331915A2912D0043FAC2 /* AppDelegate.m */; };
+		B394097B15A2929600B00E43 /* abc.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B394097915A2929600B00E43 /* abc.jpeg */; };
+		B394097C15A2929600B00E43 /* cba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B394097A15A2929600B00E43 /* cba.jpeg */; };
+		B394098015A2929E00B00E43 /* FantasyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B394097F15A2929E00B00E43 /* FantasyView.m */; };
+		B394098315A292A400B00E43 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B394098115A292A400B00E43 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,18 @@
 		B307330915A2912D0043FAC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B307330B15A2912D0043FAC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B307330D15A2912D0043FAC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B307331115A2912D0043FAC2 /* FantasyView-Info.plist */ = {isa = PBXFileReference; path = "FantasyView-Info.plist"; sourceTree = "<group>"; };
+		B307331115A2912D0043FAC2 /* FantasyView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FantasyView-Info.plist"; sourceTree = "<group>"; };
 		B307331315A2912D0043FAC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B307331515A2912D0043FAC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B307331715A2912D0043FAC2 /* FantasyView-Prefix.pch */ = {isa = PBXFileReference; path = "FantasyView-Prefix.pch"; sourceTree = "<group>"; };
-		B307331815A2912D0043FAC2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B307331715A2912D0043FAC2 /* FantasyView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FantasyView-Prefix.pch"; sourceTree = "<group>"; };
+		B307331815A2912D0043FAC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B307331915A2912D0043FAC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B394097915A2929600B00E43 /* abc.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abc.jpeg; sourceTree = "<group>"; };
+		B394097A15A2929600B00E43 /* cba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cba.jpeg; sourceTree = "<group>"; };
+		B394097E15A2929E00B00E43 /* FantasyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FantasyView.h; sourceTree = "<group>"; };
+		B394097F15A2929E00B00E43 /* FantasyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FantasyView.m; sourceTree = "<group>"; };
+		B394098115A292A400B00E43 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B394098215A292A400B00E43 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +82,13 @@
 		B307330F15A2912D0043FAC2 /* FantasyView */ = {
 			isa = PBXGroup;
 			children = (
+				B394098515A292B500B00E43 /* FantasyView */,
+				B394098415A292AB00B00E43 /* Resource */,
+				B307331015A2912D0043FAC2 /* Supporting Files */,
+				B394098115A292A400B00E43 /* RootViewController.m */,
+				B394098215A292A400B00E43 /* RootViewController.h */,
 				B307331815A2912D0043FAC2 /* AppDelegate.h */,
 				B307331915A2912D0043FAC2 /* AppDelegate.m */,
-				B307331015A2912D0043FAC2 /* Supporting Files */,
 			);
 			path = FantasyView;
 			sourceTree = "<group>";
@@ -88,6 +102,24 @@
 				B307331715A2912D0043FAC2 /* FantasyView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B394098415A292AB00B00E43 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B394097915A2929600B00E43 /* abc.jpeg */,
+				B394097A15A2929600B00E43 /* cba.jpeg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		B394098515A292B500B00E43 /* FantasyView */ = {
+			isa = PBXGroup;
+			children = (
+				B394097E15A2929E00B00E43 /* FantasyView.h */,
+				B394097F15A2929E00B00E43 /* FantasyView.m */,
+			);
+			name = FantasyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B307331415A2912D0043FAC2 /* InfoPlist.strings in Resources */,
+				B394097B15A2929600B00E43 /* abc.jpeg in Resources */,
+				B394097C15A2929600B00E43 /* cba.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +187,8 @@
 			files = (
 				B307331615A2912D0043FAC2 /* main.m in Sources */,
 				B307331A15A2912D0043FAC2 /* AppDelegate.m in Sources */,
+				B394098015A2929E00B00E43 /* FantasyView.m in Sources */,
+				B394098315A292A400B00E43 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +225,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -207,7 +243,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -256,6 +292,7 @@
 				B307331F15A2912D0043FAC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
