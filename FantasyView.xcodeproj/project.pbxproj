@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B307330A15A2912D0043FAC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307330915A2912D0043FAC2 /* UIKit.framework */; };
+		B307330C15A2912D0043FAC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307330B15A2912D0043FAC2 /* Foundation.framework */; };
+		B307330E15A2912D0043FAC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B307330D15A2912D0043FAC2 /* CoreGraphics.framework */; };
+		B307331415A2912D0043FAC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B307331215A2912D0043FAC2 /* InfoPlist.strings */; };
+		B307331615A2912D0043FAC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B307331515A2912D0043FAC2 /* main.m */; };
+		B307331A15A2912D0043FAC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B307331915A2912D0043FAC2 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B307330515A2912D0043FAC2 /* FantasyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B307330915A2912D0043FAC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B307330B15A2912D0043FAC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B307330D15A2912D0043FAC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B307331115A2912D0043FAC2 /* FantasyView-Info.plist */ = {isa = PBXFileReference; path = "FantasyView-Info.plist"; sourceTree = "<group>"; };
+		B307331315A2912D0043FAC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B307331515A2912D0043FAC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B307331715A2912D0043FAC2 /* FantasyView-Prefix.pch */ = {isa = PBXFileReference; path = "FantasyView-Prefix.pch"; sourceTree = "<group>"; };
+		B307331815A2912D0043FAC2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B307331915A2912D0043FAC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B307330215A2912D0043FAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307330A15A2912D0043FAC2 /* UIKit.framework in Frameworks */,
+				B307330C15A2912D0043FAC2 /* Foundation.framework in Frameworks */,
+				B307330E15A2912D0043FAC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B30732FA15A2912D0043FAC2 = {
+			isa = PBXGroup;
+			children = (
+				B307330F15A2912D0043FAC2 /* FantasyView */,
+				B307330815A2912D0043FAC2 /* Frameworks */,
+				B307330615A2912D0043FAC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B307330615A2912D0043FAC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B307330515A2912D0043FAC2 /* FantasyView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B307330815A2912D0043FAC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B307330915A2912D0043FAC2 /* UIKit.framework */,
+				B307330B15A2912D0043FAC2 /* Foundation.framework */,
+				B307330D15A2912D0043FAC2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B307330F15A2912D0043FAC2 /* FantasyView */ = {
+			isa = PBXGroup;
+			children = (
+				B307331815A2912D0043FAC2 /* AppDelegate.h */,
+				B307331915A2912D0043FAC2 /* AppDelegate.m */,
+				B307331015A2912D0043FAC2 /* Supporting Files */,
+			);
+			path = FantasyView;
+			sourceTree = "<group>";
+		};
+		B307331015A2912D0043FAC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B307331115A2912D0043FAC2 /* FantasyView-Info.plist */,
+				B307331215A2912D0043FAC2 /* InfoPlist.strings */,
+				B307331515A2912D0043FAC2 /* main.m */,
+				B307331715A2912D0043FAC2 /* FantasyView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B307330415A2912D0043FAC2 /* FantasyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B307331D15A2912D0043FAC2 /* Build configuration list for PBXNativeTarget "FantasyView" */;
+			buildPhases = (
+				B307330115A2912D0043FAC2 /* Sources */,
+				B307330215A2912D0043FAC2 /* Frameworks */,
+				B307330315A2912D0043FAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FantasyView;
+			productName = FantasyView;
+			productReference = B307330515A2912D0043FAC2 /* FantasyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B30732FC15A2912D0043FAC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B30732FF15A2912D0043FAC2 /* Build configuration list for PBXProject "FantasyView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B30732FA15A2912D0043FAC2;
+			productRefGroup = B307330615A2912D0043FAC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B307330415A2912D0043FAC2 /* FantasyView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B307330315A2912D0043FAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307331415A2912D0043FAC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B307330115A2912D0043FAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307331615A2912D0043FAC2 /* main.m in Sources */,
+				B307331A15A2912D0043FAC2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B307331215A2912D0043FAC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B307331315A2912D0043FAC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B307331B15A2912D0043FAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B307331C15A2912D0043FAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B307331E15A2912D0043FAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FantasyView/FantasyView-Prefix.pch";
+				INFOPLIST_FILE = "FantasyView/FantasyView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B307331F15A2912D0043FAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FantasyView/FantasyView-Prefix.pch";
+				INFOPLIST_FILE = "FantasyView/FantasyView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B30732FF15A2912D0043FAC2 /* Build configuration list for PBXProject "FantasyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B307331B15A2912D0043FAC2 /* Debug */,
+				B307331C15A2912D0043FAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B307331D15A2912D0043FAC2 /* Build configuration list for PBXNativeTarget "FantasyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B307331E15A2912D0043FAC2 /* Debug */,
+				B307331F15A2912D0043FAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B30732FC15A2912D0043FAC2 /* Project object */;
+}
