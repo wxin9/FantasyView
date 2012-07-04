@@ -85,8 +85,8 @@
 				B394098515A292B500B00E43 /* FantasyView */,
 				B394098415A292AB00B00E43 /* Resource */,
 				B307331015A2912D0043FAC2 /* Supporting Files */,
-				B394098115A292A400B00E43 /* RootViewController.m */,
 				B394098215A292A400B00E43 /* RootViewController.h */,
+				B394098115A292A400B00E43 /* RootViewController.m */,
 				B307331815A2912D0043FAC2 /* AppDelegate.h */,
 				B307331915A2912D0043FAC2 /* AppDelegate.m */,
 			);
