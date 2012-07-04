@@ -80,6 +80,13 @@
 }
 
 - (UIView *)getViewInFantasyViewWithIndex:(NSInteger)index{
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:index inSection:0];
+    UITableViewCell *cell = [self.tableView.dataSource tableView:self.tableView cellForRowAtIndexPath:indexPath];
+    UIView *contentView = [cell viewWithTag:kTableView_ContentView_Tag];
+    
+    if (contentView) {
+        return contentView;
+    }
     return nil;
 }
 
